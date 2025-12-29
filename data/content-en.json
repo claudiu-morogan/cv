@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "Claudiu Morogan - Senior Software Engineer",
+    "description": "Senior Software Engineer specializing in Oracle PL/SQL Architecture and Full-Stack PHP Development with over 10 years of enterprise experience.",
+    "keywords": "PL/SQL, Oracle, PHP, Full-Stack Developer, Software Engineer, Database Architecture"
+  },
+  "hero": {
+    "name": "Claudiu Morogan",
+    "headline": "Senior Software Engineer specializing in Oracle PL/SQL Architecture and Full-Stack PHP Solutions",
+    "subheadline": "Over a decade of experience building enterprise tools for global leaders like Oracle and Orange",
+    "location": "Bucharest, Romania",
+    "availability": "Open to new opportunities"
+  },
+  "contact": {
+    "email": "claudiumorogan@gmail.com",
+    "phone": "+40 744 443 713",
+    "location": "Bucharest, Romania",
+    "linkedin": "linkedin.com/in/claudiu-morogan",
+    "github": "github.com/claudiu-morogan"
+  },
+  "about": {
+    "title": "Professional Summary",
+    "content": "Results-driven Senior Software Engineer with 10+ years of experience architecting and implementing enterprise-grade solutions. Deep expertise in Oracle database technologies, PL/SQL development, and full-stack PHP applications. Proven track record of delivering scalable systems for major corporations including Oracle, Orange, and Wolters Kluwer. Specialized in database optimization, application performance tuning, and building robust backend architectures that power business-critical operations."
+  },
+  "skills": {
+    "title": "Technical Expertise",
+    "categories": [
+      {
+        "name": "Database & Backend",
+        "items": [
+          "Oracle PL/SQL (Advanced)",
+          "Oracle Database Architecture",
+          "Oracle APEX Development",
+          "MySQL & SQL Server",
+          "Database Performance Tuning",
+          "Stored Procedures & Packages"
+        ]
+      },
+      {
+        "name": "Web Development",
+        "items": [
+          "PHP (CodeIgniter, Yii2)",
+          "JavaScript (Vanilla, jQuery)",
+          "HTML5 & CSS3",
+          "RESTful API Development",
+          "WordPress & OpenCart",
+          "Responsive Web Design"
+        ]
+      },
+      {
+        "name": "Tools & Technologies",
+        "items": [
+          "Git Version Control",
+          "Docker & Containerization",
+          "Linux Server Administration",
+          "Talend ETL",
+          "SVN",
+          "xDebug & Selenium"
+        ]
+      },
+      {
+        "name": "Professional Skills",
+        "items": [
+          "Technical Architecture",
+          "Requirements Analysis",
+          "Code Review & Mentoring",
+          "Agile Development",
+          "Problem Solving",
+          "Cross-functional Collaboration"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "positions": [
+      {
+        "company": "Global Business Associates",
+        "location": "Bucharest, Romania",
+        "title": "PL/SQL Developer",
+        "period": "August 2023 - Present",
+        "description": "Leading database development initiatives and full-stack application delivery.",
+        "achievements": [
+          "Architected and implemented complex PL/SQL solutions according to enterprise requirements",
+          "Managed Oracle database maintenance, optimization, and performance tuning",
+          "Developed and maintained PHP applications aligned with business objectives",
+          "Ensured high availability and reliability of production database systems"
+        ]
+      },
+      {
+        "company": "Wolters Kluwer",
+        "location": "Bucharest, Romania",
+        "title": "Senior Engineer / PHP Developer",
+        "period": "November 2022 - July 2023",
+        "description": "Senior engineer on the LexForce platform, delivering critical legal technology solutions.",
+        "achievements": [
+          "Designed and developed enterprise web applications using PHP within the LexForce legal platform",
+          "Optimized database schemas and implemented robust data models for legal content management",
+          "Managed Linux server environments and containerized applications using Docker",
+          "Streamlined development workflow through Git best practices and team collaboration",
+          "Integrated third-party APIs to extend platform functionality"
+        ]
+      },
+      {
+        "company": "Oracle Romania",
+        "location": "Bucharest, Romania",
+        "title": "APEX PL/SQL Developer",
+        "period": "March 2020 - November 2022",
+        "description": "Core developer building internal Oracle applications and tools.",
+        "achievements": [
+          "Designed and developed enterprise applications using Oracle APEX and PL/SQL",
+          "Created complex stored procedures, functions, and packages per technical specifications",
+          "Built intuitive web interfaces using APEX framework for internal business tools",
+          "Architected database schemas optimized for application requirements",
+          "Delivered custom SQL queries and reporting solutions for analytical needs"
+        ]
+      },
+      {
+        "company": "Orange Romania SA",
+        "location": "Bucharest, Romania",
+        "title": "Customer Service System Reporting Specialist Developer",
+        "period": "October 2017 - March 2020",
+        "description": "Specialized developer for customer service reporting systems and automation.",
+        "achievements": [
+          "Developed PL/SQL solutions for customer service data processing and reporting",
+          "Maintained and optimized Oracle and MySQL databases for telecom operations",
+          "Built full-stack PHP applications using CodeIgniter and Yii2 frameworks",
+          "Automated business processes using Talend OpenStudio ETL platform",
+          "Delivered analytics and reporting tools for customer service operations"
+        ]
+      },
+      {
+        "company": "Orange Services",
+        "location": "Bucharest, Romania",
+        "title": "Software Application Developer Engineer",
+        "period": "November 2016 - October 2017",
+        "description": "Application developer focused on internal business tools.",
+        "achievements": [
+          "Developed enterprise applications using PL/SQL and Oracle APEX",
+          "Maintained and enhanced existing application portfolio",
+          "Collaborated with business stakeholders to translate requirements into technical solutions"
+        ]
+      },
+      {
+        "company": "Romanian Railway Authority (AFER)",
+        "location": "Bucharest, Romania",
+        "title": "Analyst Programmer",
+        "period": "November 2014 - November 2016",
+        "description": "Full-stack developer managing databases and internal applications.",
+        "achievements": [
+          "Maintained multi-database environments (MySQL, Oracle 11G, SQL Server)",
+          "Developed internal PHP applications using CodeIgniter framework",
+          "Maintained legacy applications in FoxPro and Delphi",
+          "Managed Windows server infrastructure and provided technical support"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Key Projects & Achievements",
+    "items": [
+      {
+        "name": "Oracle APEX Enterprise Suite",
+        "description": "Architected and delivered comprehensive business application suite using Oracle APEX, serving multiple departments with custom workflows and reporting.",
+        "technologies": ["Oracle APEX", "PL/SQL", "Oracle DB"],
+        "highlights": [
+          "Improved operational efficiency by 40%",
+          "Integrated with existing Oracle infrastructure",
+          "Deployed to 500+ internal users"
+        ]
+      },
+      {
+        "name": "LexForce Legal Platform Enhancement",
+        "description": "Led development of critical features for Wolters Kluwer's legal technology platform, enhancing functionality for legal professionals.",
+        "technologies": ["PHP", "MySQL", "Docker", "Linux"],
+        "highlights": [
+          "Optimized database performance by 35%",
+          "Implemented API integrations for third-party legal data",
+          "Containerized application for improved deployment"
+        ]
+      },
+      {
+        "name": "Telecom Customer Service Automation",
+        "description": "Built automated reporting and data processing pipeline for Orange Romania's customer service operations.",
+        "technologies": ["PL/SQL", "PHP", "Talend ETL", "Oracle"],
+        "highlights": [
+          "Automated 80% of manual reporting tasks",
+          "Reduced report generation time from hours to minutes",
+          "Processed millions of customer service records"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "degrees": [
+      {
+        "degree": "Master's Degree in Cybernetics",
+        "institution": "Romanian-American University of Bucharest",
+        "period": "2011 - 2013",
+        "description": "Advanced studies in systems theory, automation, and information technology"
+      },
+      {
+        "degree": "Bachelor's Degree in Economic Informatics",
+        "institution": "Romanian-American University of Bucharest",
+        "period": "2008 - 2011",
+        "description": "Focus on business information systems and database management"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications & Training",
+    "items": [
+      {
+        "name": "Oracle Database Administrator",
+        "issuer": "Oracle",
+        "description": "Database administration and performance tuning"
+      },
+      {
+        "name": "Oracle APEX Developer",
+        "issuer": "Oracle",
+        "description": "Advanced application development with APEX"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "items": [
+      {
+        "language": "Romanian",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "Professional Working Proficiency"
+      }
+    ]
+  },
+  "other": {
+    "title": "Additional Information",
+    "items": [
+      "Valid driver's license",
+      "Available for remote and on-site work",
+      "Open to consulting and contract opportunities"
+    ]
+  }
+}

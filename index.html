@@ -1,54 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Claudiu Morogan :: Terminal CV</title>
-  <link rel="icon" href="favicon.ico" />
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/terminal.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags - Will be updated dynamically by JavaScript -->
+    <title>Claudiu Morogan - Senior Software Engineer</title>
+    <meta name="description" content="Senior Software Engineer specializing in Oracle PL/SQL Architecture and Full-Stack PHP Development with over 10 years of enterprise experience.">
+    <meta name="keywords" content="PL/SQL, Oracle, PHP, Full-Stack Developer, Software Engineer, Database Architecture">
+    <meta name="author" content="Claudiu Morogan">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Claudiu Morogan - Senior Software Engineer">
+    <meta property="og:description" content="Senior Software Engineer specializing in Oracle PL/SQL Architecture and Full-Stack PHP Development">
+    <meta property="og:type" content="profile">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ro_RO">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Using distinctive fonts: Playfair Display for headings (editorial elegance) and Source Sans 3 for body (refined readability) -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-  <canvas id="matrix-rain" aria-hidden="true"></canvas>
-  <div class="terminal-window">
-    <div class="window-chrome">
-      <div class="traffic-lights">
-        <span class="light red"></span>
-        <span class="light yellow"></span>
-        <span class="light green"></span>
-      </div>
-      <div class="window-title">/home/claudiu/interactive-cv — bash</div>
-      <div class="window-actions">
-        <button id="toggle-theme" title="Toggle theme">◐</button>
-      </div>
+<body data-lang="en" data-theme="light">
+    
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader"></div>
     </div>
-    <nav class="quick-menu" aria-label="Quick navigation">
-      <button data-cmd="about" title="About">About</button>
-      <button data-cmd="basic" title="Basic Info">Basic</button>
-      <button data-cmd="skills" title="Skills">Skills</button>
-      <button data-cmd="experience" title="Experience">Experience</button>
-      <button data-cmd="education" title="Education">Education</button>
-      <button data-cmd="contact" title="Contact">Contact</button>
-      <button data-cmd="download cv" title="Download CV">CV ↓</button>
-  <button data-cmd="clear" title="Clear output">Clear</button>
-      <button data-cmd="help" title="Help">Help</button>
-  <button id="toggle-autoclear" class="state-btn" data-state="off" title="Toggle auto clear before commands">AC:Off</button>
+    
+    <!-- Navigation -->
+    <nav class="nav" id="mainNav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="nav-initials">CM</span>
+            </div>
+            
+            <div class="nav-controls">
+                <!-- Language Toggle -->
+                <button class="btn-control btn-lang" id="langToggle" aria-label="Toggle language">
+                    <span class="lang-text" data-lang="en">EN</span>
+                    <span class="lang-text" data-lang="ro">RO</span>
+                </button>
+                
+                <!-- Theme Toggle -->
+                <button class="btn-control btn-theme" id="themeToggle" aria-label="Toggle theme">
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
     </nav>
-    <div id="output" class="terminal-output" role="log" aria-live="polite"></div>
-    <form id="cmd-form" class="terminal-input-row" autocomplete="off">
-      <label for="cmd" class="prompt" aria-hidden="true">claudiu@cv:~$</label>
-      <input id="cmd" name="cmd" type="text" autofocus aria-label="Command input" />
-    </form>
-  </div>
-
-  <noscript>
-    <style>.terminal-window{display:none}</style>
-    <div style="color:#0f0;font-family:monospace;padding:1rem;">This interactive CV needs JavaScript enabled.</div>
-  </noscript>
-
-  <script src="js/terminal-data.js"></script>
-  <script src="js/terminal.js"></script>
+    
+    <!-- Main Content -->
+    <main class="main">
+        
+        <!-- Hero Section -->
+        <section class="hero section" id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <p class="hero-greeting fade-in" data-key="hero.location"></p>
+                    <h1 class="hero-name fade-in" data-key="hero.name"></h1>
+                    <h2 class="hero-headline fade-in" data-key="hero.headline"></h2>
+                    <p class="hero-subheadline fade-in" data-key="hero.subheadline"></p>
+                    <div class="hero-cta fade-in">
+                        <a href="#contact" class="btn btn-primary" data-translate="cta.contact">Get in Touch</a>
+                        <a href="#experience" class="btn btn-secondary" data-translate="cta.experience">View Experience</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-decoration"></div>
+        </section>
+        
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section-title" data-key="about.title"></h2>
+                <div class="about-content">
+                    <p class="about-text" data-key="about.content"></p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section-title" data-key="skills.title"></h2>
+                <div class="skills-grid" id="skillsGrid">
+                    <!-- Skills will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <div class="container">
+                <h2 class="section-title" data-key="experience.title"></h2>
+                <div class="timeline" id="experienceTimeline">
+                    <!-- Experience items will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section-title" data-key="projects.title"></h2>
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- Education Section -->
+        <section class="education section" id="education">
+            <div class="container">
+                <h2 class="section-title" data-key="education.title"></h2>
+                <div class="education-list" id="educationList">
+                    <!-- Education items will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- Languages & Certifications -->
+        <section class="credentials section" id="credentials">
+            <div class="container">
+                <div class="credentials-grid">
+                    <div class="credentials-col">
+                        <h3 class="credentials-title" data-key="certifications.title"></h3>
+                        <div class="credentials-list" id="certificationsList">
+                            <!-- Certifications will be dynamically inserted here -->
+                        </div>
+                    </div>
+                    <div class="credentials-col">
+                        <h3 class="credentials-title" data-key="languages.title"></h3>
+                        <div class="credentials-list" id="languagesList">
+                            <!-- Languages will be dynamically inserted here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title" data-translate="section.contact">Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <a href="mailto:claudiumorogan@gmail.com" data-key="contact.email"></a>
+                        </div>
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <a href="tel:+40744443713" data-key="contact.phone"></a>
+                        </div>
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span data-key="contact.location"></span>
+                        </div>
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                            <a href="https://linkedin.com/in/claudiu-morogan" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        </div>
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            <a href="https://github.com/claudiumorogan" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                <span data-translate="footer.copyright"></span>
+                <span class="footer-year"></span>
+            </p>
+            <p class="footer-note" data-translate="footer.note">
+                Built with care. No frameworks, just clean code.
+            </p>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="js/lang.js"></script>
+    <script src="js/main.js"></script>
+    
 </body>
 </html>

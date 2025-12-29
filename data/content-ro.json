@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "Claudiu Morogan - Inginer Software Senior",
+    "description": "Inginer Software Senior specializat în Arhitectură Oracle PL/SQL și Dezvoltare Full-Stack PHP cu peste 10 ani de experiență enterprise.",
+    "keywords": "PL/SQL, Oracle, PHP, Dezvoltator Full-Stack, Inginer Software, Arhitectură Baze de Date"
+  },
+  "hero": {
+    "name": "Claudiu Morogan",
+    "headline": "Inginer Software Senior specializat în Arhitectură Oracle PL/SQL și Soluții Full-Stack PHP",
+    "subheadline": "Peste un deceniu de experiență în construirea de instrumente enterprise pentru lideri globali precum Oracle și Orange",
+    "location": "București, România",
+    "availability": "Deschis către noi oportunități"
+  },
+  "contact": {
+    "email": "claudiumorogan@gmail.com",
+    "phone": "+40 744 443 713",
+    "location": "București, România",
+    "linkedin": "linkedin.com/in/claudiu-morogan",
+    "github": "github.com/claudiu-morogan"
+  },
+  "about": {
+    "title": "Profil Profesional",
+    "content": "Inginer Software Senior orientat pe rezultate, cu peste 10 ani de experiență în arhitecturarea și implementarea de soluții enterprise. Expertiză profundă în tehnologii de baze de date Oracle, dezvoltare PL/SQL și aplicații full-stack PHP. Istoric dovedit în livrarea de sisteme scalabile pentru corporații majore inclusiv Oracle, Orange și Wolters Kluwer. Specializat în optimizarea bazelor de date, tuning de performanță aplicații și construirea de arhitecturi backend robuste care susțin operațiuni critice de business."
+  },
+  "skills": {
+    "title": "Expertiza Tehnică",
+    "categories": [
+      {
+        "name": "Baze de Date & Backend",
+        "items": [
+          "Oracle PL/SQL (Avansat)",
+          "Arhitectură Baze de Date Oracle",
+          "Dezvoltare Oracle APEX",
+          "MySQL & SQL Server",
+          "Optimizare Performanță Baze de Date",
+          "Proceduri Stocate & Pachete"
+        ]
+      },
+      {
+        "name": "Dezvoltare Web",
+        "items": [
+          "PHP (CodeIgniter, Yii2)",
+          "JavaScript (Vanilla, jQuery)",
+          "HTML5 & CSS3",
+          "Dezvoltare API RESTful",
+          "WordPress & OpenCart",
+          "Design Web Responsive"
+        ]
+      },
+      {
+        "name": "Instrumente & Tehnologii",
+        "items": [
+          "Control Versiuni Git",
+          "Docker & Containerizare",
+          "Administrare Servere Linux",
+          "Talend ETL",
+          "SVN",
+          "xDebug & Selenium"
+        ]
+      },
+      {
+        "name": "Competențe Profesionale",
+        "items": [
+          "Arhitectură Tehnică",
+          "Analiză Cerințe",
+          "Code Review & Mentorat",
+          "Dezvoltare Agile",
+          "Rezolvare Probleme",
+          "Colaborare Cross-funcțională"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiență Profesională",
+    "positions": [
+      {
+        "company": "Global Business Associates",
+        "location": "București, România",
+        "title": "Dezvoltator PL/SQL",
+        "period": "August 2023 - Prezent",
+        "description": "Conducerea inițiativelor de dezvoltare baze de date și livrare aplicații full-stack.",
+        "achievements": [
+          "Arhitecturat și implementat soluții complexe PL/SQL conform cerințelor enterprise",
+          "Gestionat mentenanța, optimizarea și tuning-ul performanței bazelor de date Oracle",
+          "Dezvoltat și menținut aplicații PHP aliniate cu obiectivele de business",
+          "Asigurat disponibilitate ridicată și fiabilitate a sistemelor de baze de date în producție"
+        ]
+      },
+      {
+        "company": "Wolters Kluwer",
+        "location": "București, România",
+        "title": "Inginer Senior / Dezvoltator PHP",
+        "period": "Noiembrie 2022 - Iulie 2023",
+        "description": "Inginer senior pe platforma LexForce, livrând soluții critice de tehnologie juridică.",
+        "achievements": [
+          "Proiectat și dezvoltat aplicații web enterprise folosind PHP în cadrul platformei juridice LexForce",
+          "Optimizat scheme de baze de date și implementat modele de date robuste pentru management conținut juridic",
+          "Gestionat medii servere Linux și containerizat aplicații folosind Docker",
+          "Eficientizat workflow-ul de dezvoltare prin practici Git și colaborare în echipă",
+          "Integrat API-uri terțe pentru extinderea funcționalității platformei"
+        ]
+      },
+      {
+        "company": "Oracle Romania",
+        "location": "București, România",
+        "title": "Dezvoltator APEX PL/SQL",
+        "period": "Martie 2020 - Noiembrie 2022",
+        "description": "Dezvoltator principal construind aplicații și instrumente interne Oracle.",
+        "achievements": [
+          "Proiectat și dezvoltat aplicații enterprise folosind Oracle APEX și PL/SQL",
+          "Creat proceduri stocate, funcții și pachete complexe conform specificațiilor tehnice",
+          "Construit interfețe web intuitive folosind framework-ul APEX pentru instrumente de business interne",
+          "Arhitecturat scheme de baze de date optimizate pentru cerințele aplicațiilor",
+          "Livrat interogări SQL personalizate și soluții de raportare pentru nevoi analitice"
+        ]
+      },
+      {
+        "company": "Orange Romania SA",
+        "location": "București, România",
+        "title": "Specialist Dezvoltator Sistem Raportare Customer Service",
+        "period": "Octombrie 2017 - Martie 2020",
+        "description": "Dezvoltator specializat pentru sisteme de raportare customer service și automatizare.",
+        "achievements": [
+          "Dezvoltat soluții PL/SQL pentru procesarea datelor și raportarea customer service",
+          "Menținut și optimizat baze de date Oracle și MySQL pentru operațiuni telecom",
+          "Construit aplicații full-stack PHP folosind framework-uri CodeIgniter și Yii2",
+          "Automatizat procese de business folosind platforma Talend OpenStudio ETL",
+          "Livrat instrumente de analytics și raportare pentru operațiuni customer service"
+        ]
+      },
+      {
+        "company": "Orange Services",
+        "location": "București, România",
+        "title": "Inginer Dezvoltator Aplicații Software",
+        "period": "Noiembrie 2016 - Octombrie 2017",
+        "description": "Dezvoltator de aplicații focusat pe instrumente de business interne.",
+        "achievements": [
+          "Dezvoltat aplicații enterprise folosind PL/SQL și Oracle APEX",
+          "Menținut și îmbunătățit portofoliul de aplicații existente",
+          "Colaborat cu stakeholderi de business pentru traducerea cerințelor în soluții tehnice"
+        ]
+      },
+      {
+        "company": "Autoritatea Feroviară Română (AFER)",
+        "location": "București, România",
+        "title": "Analist Programator",
+        "period": "Noiembrie 2014 - Noiembrie 2016",
+        "description": "Dezvoltator full-stack gestionând baze de date și aplicații interne.",
+        "achievements": [
+          "Menținut medii multi-baze de date (MySQL, Oracle 11G, SQL Server)",
+          "Dezvoltat aplicații interne PHP folosind framework-ul CodeIgniter",
+          "Menținut aplicații legacy în FoxPro și Delphi",
+          "Gestionat infrastructură servere Windows și oferit suport tehnic"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proiecte Cheie & Realizări",
+    "items": [
+      {
+        "name": "Suite Enterprise Oracle APEX",
+        "description": "Arhitecturat și livrat suite comprehensivă de aplicații de business folosind Oracle APEX, deservind multiple departamente cu workflow-uri personalizate și raportare.",
+        "technologies": ["Oracle APEX", "PL/SQL", "Oracle DB"],
+        "highlights": [
+          "Îmbunătățit eficiența operațională cu 40%",
+          "Integrat cu infrastructura Oracle existentă",
+          "Implementat pentru 500+ utilizatori interni"
+        ]
+      },
+      {
+        "name": "Îmbunătățirea Platformei Juridice LexForce",
+        "description": "Condus dezvoltarea de funcționalități critice pentru platforma de tehnologie juridică Wolters Kluwer, îmbunătățind funcționalitatea pentru profesioniști juridici.",
+        "technologies": ["PHP", "MySQL", "Docker", "Linux"],
+        "highlights": [
+          "Optimizat performanța bazei de date cu 35%",
+          "Implementat integrări API pentru date juridice terțe",
+          "Containerizat aplicația pentru deployment îmbunătățit"
+        ]
+      },
+      {
+        "name": "Automatizare Customer Service Telecom",
+        "description": "Construit pipeline automatizat de raportare și procesare date pentru operațiunile de customer service Orange România.",
+        "technologies": ["PL/SQL", "PHP", "Talend ETL", "Oracle"],
+        "highlights": [
+          "Automatizat 80% din sarcinile de raportare manuală",
+          "Redus timpul de generare rapoarte de la ore la minute",
+          "Procesat milioane de înregistrări customer service"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Educație",
+    "degrees": [
+      {
+        "degree": "Master în Cibernetică",
+        "institution": "Universitatea Romano-Americană din București",
+        "period": "2011 - 2013",
+        "description": "Studii avansate în teoria sistemelor, automatizare și tehnologia informației"
+      },
+      {
+        "degree": "Licență în Informatică Economică",
+        "institution": "Universitatea Romano-Americană din București",
+        "period": "2008 - 2011",
+        "description": "Focus pe sisteme informaționale de business și management baze de date"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certificări & Training",
+    "items": [
+      {
+        "name": "Oracle Database Administrator",
+        "issuer": "Oracle",
+        "description": "Administrare baze de date și tuning performanță"
+      },
+      {
+        "name": "Oracle APEX Developer",
+        "issuer": "Oracle",
+        "description": "Dezvoltare avansată de aplicații cu APEX"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Limbi Străine",
+    "items": [
+      {
+        "language": "Română",
+        "level": "Nativ"
+      },
+      {
+        "language": "Engleză",
+        "level": "Profesional"
+      }
+    ]
+  },
+  "other": {
+    "title": "Informații Adiționale",
+    "items": [
+      "Permis de conducere valabil",
+      "Disponibil pentru muncă remote și on-site",
+      "Deschis către oportunități de consultanță și contract"
+    ]
+  }
+}
